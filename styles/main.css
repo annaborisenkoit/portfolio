@@ -1,0 +1,119 @@
+@import "./header.css";
+@import "./burger.css";
+@import "./intro.css";
+@import "./buttons.css";
+@import "./popup.css";
+@import "./order.css";
+@import "./input.css";
+@import "./projects.css";
+@import "./services.css";
+@import "./reviews.css";
+@import "./gallery.css";
+@import "./contacts.css";
+@import "./footer.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace; /*"Manrope", sans-serif;*/
+}
+
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+div {
+  color: #ffffff;
+  letter-spacing: -0.03em;
+}
+.header {
+  height: 765px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  background-image: url("../resourses/header-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+.header__inner {
+  padding-top: 34px;
+  margin-bottom: 252px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  width: 113px;
+  height: 39px;
+  background: #000000;
+  border-radius: 100px;
+}
+
+.nav__links {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.03em;
+}
+
+.header-description {
+  margin-bottom: 29px;
+  width: 430px;
+  height: 103px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.header-title {
+  width: 919px;
+  height: 205px;
+  color: #1bff07;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 70px;
+  position: absolute;
+}
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 15px 0 15px;
+  }
+
+  .header {
+    background-image: url(/resourses/header-image-tablet.jpg);
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 12px 0 12px;
+  }
+
+  .header {
+    background-image: url(/resourses/header-image-mobile.jpg);
+  }
+}
