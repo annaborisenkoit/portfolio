@@ -103,7 +103,7 @@ div {
   }
 
   .header {
-    background-image: url(/resourses/header-image-tablet.jpg);
+    background-image: url(../resourses/header-image-tablet.jpg);
   }
 }
 
@@ -114,6 +114,6 @@ div {
   }
 
   .header {
-    background-image: url(/resourses/header-image-mobile.jpg);
+    background-image: url(../resourses/header-image-mobile.jpg);
   }
 }
