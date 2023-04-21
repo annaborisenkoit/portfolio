@@ -18,6 +18,7 @@ html {
 
 body {
   font-family: "IBM Plex Mono", monospace; /*"Manrope", sans-serif;*/
+  /*  background: #000000;*/
 }
 
 .container {
@@ -35,7 +36,6 @@ div {
   letter-spacing: -0.03em;
 }
 .header {
-  height: 765px;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0) 0%,
@@ -47,9 +47,14 @@ div {
   background-position: 50% 0%;
 }
 
-.header__inner {
+.header__wrapper {
   padding-top: 34px;
-  margin-bottom: 252px;
+  padding-bottom: 30px;
+  height: 765px;
+}
+
+.header__menu {
+  margin-bottom: 247px;
   height: 55px;
   display: flex;
   justify-content: space-between;
@@ -64,17 +69,15 @@ div {
 }
 
 .nav__links {
-  text-decoration: none;
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 }
 
 .nav__link {
-  margin-left: 50px;
   text-decoration: none;
   font-size: 18px;
   line-height: 23px;
-  letter-spacing: -0.03em;
 }
 
 .header-description {
@@ -88,14 +91,12 @@ div {
 }
 
 .header-title {
-  width: 919px;
-  height: 205px;
   color: #1bff07;
   font-weight: 400;
   font-size: 80px;
   line-height: 70px;
-  position: absolute;
 }
+
 @media (max-width: 1199px) {
   .container {
     width: 100%;
@@ -106,14 +107,17 @@ div {
     background-image: url(../resourses/header-image-tablet.jpg);
   }
 }
-
 @media (max-width: 767px) {
   .container {
     width: 100%;
-    padding: 0 12px 0 12px;
+    padding: 0 13px 0 13px;
   }
 
   .header {
     background-image: url(../resourses/header-image-mobile.jpg);
+  }
+
+  .header__wrapper {
+    height: 716px;
   }
 }
