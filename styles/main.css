@@ -33,6 +33,7 @@ a,
 p,
 div {
   color: #ffffff;
+  font-weight: 400;
   letter-spacing: -0.03em;
 }
 .header {
@@ -83,16 +84,14 @@ div {
 .header-description {
   margin-bottom: 29px;
   width: 430px;
-  height: 103px;
-  font-weight: 400;
+
   font-size: 20px;
   line-height: 26px;
-  color: #ffffff;
 }
 
 .header-title {
   color: #1bff07;
-  font-weight: 400;
+
   font-size: 80px;
   line-height: 70px;
 }
@@ -105,6 +104,15 @@ div {
 
   .header {
     background-image: url(../resourses/header-image-tablet.jpg);
+  }
+
+  .header__menu {
+    margin-bottom: 280px;
+  }
+
+  .header-title {
+    font-size: 60px;
+    line-height: 70px;
   }
 }
 @media (max-width: 767px) {
@@ -119,5 +127,21 @@ div {
 
   .header__wrapper {
     height: 716px;
+  }
+
+  .header__menu {
+    margin-bottom: 250px;
+  }
+
+  .header-description {
+    width: 310px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .header-title {
+    font-size: 36px;
+    line-height: 47px;
   }
 }
