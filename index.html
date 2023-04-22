@@ -94,7 +94,40 @@
         </div>
       </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <div class="container">
+        <div class="projects__wrapper">
+          <div class="projects__title">
+            <h2>Самые свежие проекты</h2>
+          </div>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset="resourses/projects/right-mobile.jpg"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="resourses/projects/right-tablet.jpg"
+                />
+
+                <img
+                  class="project__image"
+                  src="resourses/projects/right.jpg"
+                  alt="красивый диван"
+                />
+              </picture>
+              <h3 class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+              <a class="project__link" href="">Подробнее →</a>
+            </div>
+            </li>
+            <li class="projects__item"></li>
+            <li class="projects__item"></li>
+          </ul>
+        </div>
+      </div>
+    </main>
     <footer class="footer"></footer>
     <script src="burger.js"></script>
   </body>

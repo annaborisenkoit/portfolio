@@ -19,7 +19,7 @@ html {
 body {
   font-family: "IBM Plex Mono", monospace; /*"Manrope", sans-serif;*/
   min-width: 360px;
-  /*  background: #000000;*/
+  background: #000000;
 }
 
 .container {
@@ -36,6 +36,11 @@ div {
   color: #ffffff;
   font-weight: 400;
   letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 72px;
 }
 .header {
   background: linear-gradient(
@@ -117,6 +122,11 @@ div {
     font-size: 60px;
     line-height: 70px;
   }
+
+  h2 {
+    font-size: 45px;
+    line-height: 58px;
+  }
 }
 @media (max-width: 767px) {
   .container {
@@ -146,5 +156,11 @@ div {
   .header-title {
     font-size: 36px;
     line-height: 47px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 39px;
+    width: 268px;
   }
 }

@@ -1,0 +1,25 @@
+.projects__wrapper {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.projects__title {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1199px) {
+  .projects__title {
+    margin-bottom: 53px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects__wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .projects__title {
+    margin-bottom: 34px;
+  }
+}
