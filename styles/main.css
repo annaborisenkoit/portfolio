@@ -18,6 +18,7 @@ html {
 
 body {
   font-family: "IBM Plex Mono", monospace; /*"Manrope", sans-serif;*/
+  min-width: 360px;
   /*  background: #000000;*/
 }
 
@@ -104,6 +105,10 @@ div {
 
   .header {
     background-image: url(../resourses/header-image-tablet.jpg);
+  }
+
+  .nav__links {
+    display: none;
   }
 
   .header__menu {
