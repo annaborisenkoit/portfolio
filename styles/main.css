@@ -50,7 +50,7 @@ div {
 }
 
 .header__wrapper {
-  padding-top: 34px;
+  padding-top: 24px;
   padding-bottom: 30px;
   height: 765px;
 }
@@ -66,8 +66,6 @@ div {
 .logo {
   width: 113px;
   height: 39px;
-  background: #000000;
-  border-radius: 100px;
 }
 
 .nav__links {
@@ -112,7 +110,7 @@ div {
   }
 
   .header__menu {
-    margin-bottom: 280px;
+    margin-bottom: 290px;
   }
 
   .header-title {
