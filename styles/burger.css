@@ -88,7 +88,7 @@
     right: 1px;
     width: 63px;
     height: 63px;
-    background: url(../resourses/burger_btn_icon.png);
+    background: url("../resourses/burger_btn_icon.png");
     background-repeat: no-repeat;
     border: none;
   }
