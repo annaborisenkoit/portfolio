@@ -7,11 +7,31 @@
   margin-bottom: 40px;
 }
 
+.projects__item {
+  position: relative;
+}
+
 .project__image {
   border-radius: 33px;
   width: 100%;
   height: 550px;
   object-fit: cover;
+}
+
+.project__label__wrapper {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.project__label {
+  padding: 0 20px 0 20px;
+  color: #000000;
+  background-color: #1bff07;
+  font-size: 25px;
+  line-height: 47px;
+  text-align: center;
+  border-radius: 100px;
 }
 
 @media (max-width: 1199px) {
@@ -21,6 +41,11 @@
 
   .project__image {
     height: 445px;
+  }
+
+  .project__label {
+    font-size: 16px;
+    line-height: 22px;
   }
 }
 
@@ -37,5 +62,10 @@
   .project__image {
     height: 446px;
     object-position: 15%;
+  }
+
+  .project__label {
+    font-size: 13px;
+    line-height: 18px;
   }
 }
