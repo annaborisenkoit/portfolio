@@ -42,6 +42,12 @@ h2 {
   font-size: 55px;
   line-height: 72px;
 }
+
+h3 {
+  font-size: 35px;
+  line-height: 46px;
+}
+
 .header {
   background: linear-gradient(
     180deg,
@@ -125,6 +131,11 @@ h2 {
   h2 {
     font-size: 45px;
     line-height: 58px;
+  }
+
+  h3 {
+    font-size: 28px;
+    line-height: 36px;
   }
 }
 @media (max-width: 767px) {
