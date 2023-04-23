@@ -44,19 +44,19 @@
 }
 
 .skill-title_html::before {
-  background-image: url("/resourses/skills/html-icon.png");
+  background-image: url("../resourses/skills/html-icon.png");
 }
 
 .skill-title_JavaScript::before {
-  background-image: url("/resourses/skills/JavaScript-icon.png");
+  background-image: url("../resourses/skills/JavaScript-icon.png");
 }
 
 .skill-title_react::before {
-  background-image: url("/resourses/skills/react-icon.png");
+  background-image: url("../resourses/skills/react-icon.png");
 }
 
 .skill-title_phone::before {
-  background-image: url("/resourses/skills/phone-icon.png");
+  background-image: url("../resourses/skills/phone-icon.png");
 }
 
 .skill .skill-title_react {
@@ -88,19 +88,19 @@
   }
 
   .skill-title_html::before {
-    background-image: url("/resourses/skills/html-icon-tablet.png");
+    background-image: url("../resourses/skills/html-icon-tablet.png");
   }
 
   .skill-title_JavaScript::before {
-    background-image: url("/resourses/skills/JavaScript-icon-tablet.png");
+    background-image: url("../resourses/skills/JavaScript-icon-tablet.png");
   }
 
   .skill-title_react::before {
-    background-image: url("/resourses/skills/react-icon-tablet.png");
+    background-image: url("../resourses/skills/react-icon-tablet.png");
   }
 
   .skill-title_phone::before {
-    background-image: url("/resourses/skills/phone-icon-tablet.png");
+    background-image: url("../resourses/skills/phone-icon-tablet.png");
   }
 
   .skill-text {
