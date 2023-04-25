@@ -71,4 +71,29 @@
     font-size: 28.3043px;
     line-height: 37px;
   }
+
+  .service__wrapper {
+    padding-bottom: 45px;
+  }
+
+  .service__image {
+    height: auto;
+  }
+
+  .service__description {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    padding-left: 21px;
+    padding-bottom: 75px;
+  }
+
+  .service__title {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .serviсe__text {
+    width: 100%;
+  }
 }
