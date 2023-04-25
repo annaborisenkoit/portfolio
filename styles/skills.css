@@ -1,5 +1,5 @@
 .skills {
-  margin-bottom: 150px;
+  margin-bottom: 130px;
 }
 
 .skills__wrapper {
@@ -70,6 +70,10 @@
 }
 
 @media (max-width: 1199px) {
+  .skills {
+    margin-bottom: 105px;
+  }
+
   .skills__title {
     margin-bottom: 110px;
   }
@@ -114,6 +118,10 @@
 }
 
 @media (max-width: 767px) {
+  .skills {
+    margin-bottom: 112px;
+  }
+
   .skills__wrapper {
     flex-direction: column;
   }

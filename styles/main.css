@@ -1,6 +1,7 @@
 @import "./burger.css";
 @import "./projects.css";
 @import "./skills.css";
+@import "./services.css";
 @import "./contacts.css";
 @import "./footer.css";
 
@@ -15,8 +16,8 @@ body {
 }
 
 .container {
-  margin: 0 auto;
   width: 1150px;
+  margin: 0 auto;
 }
 
 h1,
