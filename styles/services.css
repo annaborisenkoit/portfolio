@@ -81,7 +81,6 @@
   }
 
   .service__description {
-    flex-direction: column;
     flex-wrap: wrap;
     height: auto;
     padding-left: 21px;

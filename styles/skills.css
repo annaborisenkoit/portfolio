@@ -119,7 +119,7 @@
 
 @media (max-width: 767px) {
   .skills {
-    margin-bottom: 112px;
+    margin-bottom: 75px;
   }
 
   .skills__wrapper {
@@ -128,6 +128,10 @@
 
   .skills__title {
     margin-bottom: 138px;
+  }
+
+  .skill__wrapper {
+    gap: 25px;
   }
 
   .skill-title {
