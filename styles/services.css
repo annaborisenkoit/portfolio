@@ -41,8 +41,12 @@
 }
 
 @media (max-width: 1199px) {
+  .services {
+    padding-bottom: 108px;
+  }
+
   .services__title {
-    margin-bottom: 55px;
+    margin-bottom: 20px;
   }
   .service__wrapper {
     padding-bottom: 0px;
