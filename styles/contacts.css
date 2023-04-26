@@ -81,3 +81,33 @@
     line-height: 48px;
   }
 }
+
+@media (max-width: 767px) {
+  .contacts {
+    background-image: none;
+    padding-left: 0px;
+  }
+
+  .contacts__form {
+    width: 353px;
+  }
+
+  .contacts__form-title {
+    font-size: 35px;
+    line-height: 37px;
+  }
+
+  .contacts__input {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 145px 10px 22px;
+    margin-bottom: 10px;
+  }
+
+  .contacts .projects__button {
+    width: 353px;
+    height: 43px;
+    font-size: 15px;
+    line-height: 43px;
+  }
+}
