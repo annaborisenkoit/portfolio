@@ -6,7 +6,7 @@
 }
 
 .services__title {
-  margin-bottom: 52px;
+  margin-bottom: 20px;
 }
 
 .service__image {
@@ -45,7 +45,7 @@
     margin-bottom: 55px;
   }
   .service__wrapper {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
   }
 
   .service__image {
