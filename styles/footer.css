@@ -12,6 +12,7 @@
 .footer-box {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 66px;
 }
 
 .footer__links {
@@ -24,8 +25,56 @@
 .footer__link-phone,
 .footer__link-telegram,
 .footer__link-mail {
+  font-family: Manrope;
   font-size: 22px;
   line-height: 30px;
   color: #000000;
   text-decoration: none;
+}
+
+.footer-copy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rights,
+.policy {
+  font-family: Manrope;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+  .footer-back {
+    padding-top: 50px;
+  }
+
+  .footer-box {
+    margin-bottom: 43px;
+  }
+
+  .footer__title,
+  .footer__link-phone,
+  .footer__link-telegram,
+  .footer__link-mail {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .footer__title {
+    margin-left: 25px;
+  }
+
+  .footer__links {
+    margin-right: 45px;
+  }
+  .rights,
+  .policy {
+    margin-left: 25px;
+    margin-right: 45px;
+    font-size: 14px;
+    line-height: 19px;
+  }
 }
