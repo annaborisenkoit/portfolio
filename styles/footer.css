@@ -78,3 +78,51 @@
     line-height: 19px;
   }
 }
+
+@media (max-width: 767px) {
+  .footer-back {
+    padding: 50px 0 32px 0;
+    border-radius: 0;
+    background: #ffffff;
+    height: 231px;
+  }
+
+  .footer-box {
+    flex-direction: column;
+    max-width: 198px;
+    margin-bottom: 39px;
+  }
+
+  .footer__title,
+  .footer__link-phone,
+  .footer__link-telegram,
+  .footer__link-mail {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .footer__title {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  .rights,
+  .policy {
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .footer__links {
+    gap: 10px;
+  }
+
+  .footer-copy {
+    flex-direction: column;
+  }
+
+  .rights {
+    margin-bottom: 11px;
+  }
+}

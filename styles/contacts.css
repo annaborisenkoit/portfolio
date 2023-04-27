@@ -84,6 +84,7 @@
 
 @media (max-width: 767px) {
   .contacts {
+    height: 410px;
     background-image: none;
     padding-left: 0px;
   }
