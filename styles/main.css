@@ -80,7 +80,7 @@ h3 {
     background: #000000;
 
     border-radius: 100px;
-    border: 1px solid #1bff07;
+    border: 2px solid #1bff07;
     text-decoration: none;
 }
 
@@ -173,12 +173,12 @@ font-size: 36px;
   }
 
   .header__menu {
-    margin-bottom: 260px;
+    margin-bottom: 210px;
   }
 
   .header-description {
     width: 310px;
-    margin-bottom: 12px;
+    margin-bottom: 90px;
     font-size: 25px;
     line-height: 20px;
   }
