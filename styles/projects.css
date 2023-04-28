@@ -64,6 +64,13 @@
   border-radius: 10px;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
+}
+
+.projects__button:hover {
+  background-color: #000000;
+  color: #1bff07;
+  border: 2px solid #1bff07;
 }
 
 @media (max-width: 1199px) {
